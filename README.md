@@ -1,4 +1,4 @@
-# Financing Web App
+# dev-finance$
 
 ### :hourglass: Ongoing...
 
