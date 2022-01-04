@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: Min(90vw, 800px);
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: #2a57b9;
+  font-weight: 400;
+}
+
+header {
+  background: #2ab98c;
+  padding: 4rem 2rem 8rem;
+  text-align: center;
+}
+
+header #logo {
+  color: #fafafa;
+  font-weight: bold;
+}
+
+header #logo span {
+  color: #2a57b9;
+}
+
+#balance {
+  margin-top: -6rem;
+}
+
+#balance h2 {
+  color: #fafafa;
+  margin-top: 0;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1.2rem;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.card p {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+}
+
+.card.total {
+  background: #2a57b9;
+  color: #fafafa;
+}
+
+#transaction {
+  margin-bottom: 2rem;
+}
+
+#data-table {
+  width: 100%;
+  border-spacing: 0 0.5rem;
+}
+
+#data-table td {
+  background: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid #2ab98c;
+}
+
+#data-table td.description {
+  font-weight: bold;
+}
+
+#data-table td.income {
+  color: #2ab98c;
+}
+
+#data-table td.expense {
+  color: #f53e2b;
+}
+
+#data-table th {
+  background: #2ab98c;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  font-weight: normal;
+}
+
+#data-table tbody tr {
+  opacity: 0.7;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+#data-table tbody tr:hover {
+  opacity: 1;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child {
+  border-radius: 0.25rem 0 0 0.25rem;
+  text-align: left;
+}
+
+table thead tr th:nth-child(2),
+table tbody tr td:nth-child(2) {
+  text-align: center;
+}
+
+table thead tr th:nth-child(3),
+table tbody tr td:nth-child(3) {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.6);
+  padding: 4rem 0 2rem;
+  margin-bottom: auto;
+}
+/*# sourceMappingURL=app.css.map */

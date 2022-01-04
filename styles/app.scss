@@ -1,0 +1,165 @@
+// Analogous colors from #58B92A
+
+$green: #2ab98c;
+$blue: #2a57b9;
+$red: #f53e2b;
+
+//Complementary Colors
+
+$white: #fafafa;
+$lightBlack: rgba(0, 0, 0, 0.1);
+
+@mixin flexCenter($justifyContent) {
+  display: flex;
+  align-items: center;
+  justify-content: $justifyContent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  flex-direction: column;
+  background-color: $white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: Min(90vw, 800px);
+  margin: 0 auto;
+}
+
+// Titles ==============================
+
+h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: $blue;
+  font-weight: 400;
+}
+
+// Header ==============================
+
+header {
+  background: $green;
+  padding: 4rem 2rem 8rem;
+  text-align: center;
+
+  #logo {
+    color: $white;
+    font-weight: bold;
+
+    span {
+      color: $blue;
+    }
+  }
+}
+
+// Balance ==============================
+
+#balance {
+  margin-top: -6rem;
+
+  h2 {
+    color: $white;
+    margin-top: 0;
+  }
+}
+
+// Cards ==============================
+
+.card {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 5px 10px $lightBlack;
+
+  h3 {
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+  }
+}
+
+.card.total {
+  background: $blue;
+  color: $white;
+}
+
+// Table ==============================
+#transaction {
+  margin-bottom: 2rem;
+}
+
+#data-table {
+  width: 100%;
+  border-spacing: 0 0.5rem;
+
+  td {
+    background: #fff;
+    padding: 1rem 2rem;
+    border-bottom: 3px solid $green;
+  }
+
+  td.description {
+    font-weight: bold;
+  }
+
+  td.income {
+    color: $green;
+  }
+
+  td.expense {
+    color: $red;
+  }
+
+  th {
+    background: $green;
+    color: #fff;
+
+    padding: 0.5rem 2rem;
+    font-weight: normal;
+  }
+
+  tbody tr {
+    opacity: 0.7;
+    transition: all 0.15s ease;
+    &:hover {
+      opacity: 1;
+      transition: all 0.15s ease;
+    }
+  }
+}
+
+table thead tr th,
+table tbody tr td {
+  &:first-child {
+    border-radius: 0.25rem 0 0 0.25rem;
+    text-align: left;
+  }
+  &:nth-child(2) {
+    text-align: center;
+  }
+
+  &:nth-child(3) {
+    text-align: right;
+  }
+}
+
+// Footer ==============================
+footer {
+  text-align: center;
+  background-color: $lightBlack;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 4rem 0 2rem;
+  margin-bottom: auto;
+}
