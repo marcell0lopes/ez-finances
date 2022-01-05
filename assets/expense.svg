@@ -1,5 +1,59 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M16 29.3333C23.3638 29.3333 29.3333 23.3638 29.3333 16C29.3333 8.63621 23.3638 2.66668 16 2.66667C8.63622 2.66667 2.66669 8.63621 2.66668 16C2.66668 23.3638 8.63622 29.3333 16 29.3333Z" stroke="#E83F5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M10.6667 16L16 21.3333L21.3334 16" stroke="#E83F5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16 10.6667L16 21.3333" stroke="#E83F5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   fill="none"
+   version="1.1"
+   id="svg1210"
+   sodipodi:docname="expense.svg"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1214" />
+  <sodipodi:namedview
+     id="namedview1212"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="26.375"
+     inkscape:cx="15.981043"
+     inkscape:cy="16.018957"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1210" />
+  <path
+     d="M16 29.3333C23.3638 29.3333 29.3333 23.3638 29.3333 16C29.3333 8.63621 23.3638 2.66668 16 2.66667C8.63622 2.66667 2.66669 8.63621 2.66668 16C2.66668 23.3638 8.63622 29.3333 16 29.3333Z"
+     stroke="#E83F5B"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1204"
+     style="stroke:#ef3e36;stroke-opacity:1" />
+  <path
+     d="M10.6667 16L16 21.3333L21.3334 16"
+     stroke="#E83F5B"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1206"
+     style="stroke:#ef3e36;stroke-opacity:1" />
+  <path
+     d="M16 10.6667L16 21.3333"
+     stroke="#E83F5B"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1208"
+     style="stroke:#ef3e36;stroke-opacity:1" />
 </svg>
