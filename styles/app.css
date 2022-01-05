@@ -249,6 +249,7 @@ table tbody tr td:last-child {
           justify-content: center;
   opacity: 0;
   visibility: hidden;
+  z-index: 99;
 }
 
 .modal-overlay .modal {
@@ -257,6 +258,7 @@ table tbody tr td:last-child {
   width: 90%;
   max-width: 600px;
   border-radius: 0.2rem;
+  position: relative;
 }
 
 .modal-overlay #form {

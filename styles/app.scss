@@ -247,6 +247,7 @@ table tbody tr td {
   @include flexCenter(center);
   opacity: 0;
   visibility: hidden;
+  z-index: 99;
 
   .modal {
     background: $white;
@@ -254,6 +255,7 @@ table tbody tr td {
     width: 90%;
     max-width: 600px;
     border-radius: 0.2rem;
+    position: relative;
   }
 
   #form {
