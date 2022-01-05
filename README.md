@@ -2,6 +2,6 @@
 
 ### :hourglass: Ongoing...
 
-## Simple web app for studying SASS and TypeScript
+## Simple web app I made to exercise some basic front-end concepts and SCSS
 
-> Projeto simples para aplicar e treinar conhecimentos em SASS e TypeScript
+> Projeto simples para aplicar e treinar conhecimentos em conceitos front-end e SCSS
