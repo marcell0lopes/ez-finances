@@ -14,6 +14,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.sr-only {
+  position: absolute;
+  display: none;
+}
+
 .container {
   width: Min(90vw, 800px);
   margin: 0 auto;
@@ -27,7 +32,7 @@ h2 {
 }
 
 header {
-  background: #2ab98c;
+  background: #82ba18;
   padding: 4rem 2rem 8rem;
   text-align: center;
 }
@@ -87,7 +92,7 @@ header #logo span {
 #data-table td {
   background: #fff;
   padding: 1rem 2rem;
-  border-bottom: 3px solid #2ab98c;
+  border-bottom: 3px solid #2a57b9;
 }
 
 #data-table td.description {
@@ -95,15 +100,15 @@ header #logo span {
 }
 
 #data-table td.income {
-  color: #2ab98c;
+  color: #82ba18;
 }
 
 #data-table td.expense {
-  color: #f53e2b;
+  color: #ba523d;
 }
 
 #data-table th {
-  background: #2ab98c;
+  background: #2a57b9;
   color: #fff;
   padding: 0.5rem 2rem;
   font-weight: normal;

@@ -1,8 +1,8 @@
 // Analogous colors from #58B92A
 
-$green: #2ab98c;
+$green: #82ba18;
 $blue: #2a57b9;
-$red: #f53e2b;
+$red: #ba523d;
 
 //Complementary Colors
 
@@ -25,6 +25,11 @@ body {
   flex-direction: column;
   background-color: $white;
   font-family: 'Poppins', sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  display: none;
 }
 
 .container {
@@ -107,7 +112,7 @@ header {
   td {
     background: #fff;
     padding: 1rem 2rem;
-    border-bottom: 3px solid $green;
+    border-bottom: 3px solid $blue;
   }
 
   td.description {
@@ -123,7 +128,7 @@ header {
   }
 
   th {
-    background: $green;
+    background: $blue;
     color: #fff;
 
     padding: 0.5rem 2rem;
