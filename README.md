@@ -1,7 +1,17 @@
-# dev-finance$
+### Marcello Lopes:
 
-### :hourglass: Ongoing...
+# :dollar: ez-finance$
 
-## Simple web app I made to exercise some basic front-end concepts and SCSS
+_Project Preview:_
 
-> Projeto simples para aplicar e treinar conhecimentos em conceitos front-end e SCSS
+![Project Preview](./assets/preview.png)
+
+### Simple web app I made to exercise some basic front-end concepts and SCSS
+
+I've used Vanilla JS for all the functionality, like adding and removing transactions, displaying updated information on screen and using the browser's local storage to keep data.
+
+> ### Projeto simples para aplicar e treinar conhecimentos em conceitos front-end e SCSS
+>
+> Eu utilizei JavaScript puro para toda funcionaliade do site. Como adicionar e remover transações, mostrar informações atualizadas na tela e manter as escolhas do usuário armazenadas no local storage.
+
+Special thanks for Mayk Brito from Rocketseat for helping me out with the JavaScript.
