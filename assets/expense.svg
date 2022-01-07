@@ -39,7 +39,7 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path1204"
-     style="stroke:#ef3e36;stroke-opacity:1" />
+     style="stroke:#f38484;stroke-opacity:1" />
   <path
      d="M10.6667 16L16 21.3333L21.3334 16"
      stroke="#E83F5B"
@@ -47,7 +47,7 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path1206"
-     style="stroke:#ef3e36;stroke-opacity:1" />
+     style="stroke:#f38484;stroke-opacity:1" />
   <path
      d="M16 10.6667L16 21.3333"
      stroke="#E83F5B"
@@ -55,5 +55,5 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path1208"
-     style="stroke:#ef3e36;stroke-opacity:1" />
+     style="stroke:#f38484;stroke-opacity:1" />
 </svg>

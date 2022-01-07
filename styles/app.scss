@@ -1,14 +1,18 @@
-// Analogous colors from #58B92A
-
+// Old Colors
 $green: #82ba18;
 $blue: #2a57b9;
 $red: #ef3e36;
 
-//Complementary Colors
+// New Palette
+$transparentBlack: rgba(0, 0, 0, 0.1);
+$primaryColor: #d9d7f1;
+$secondaryColor: #fffdde;
+$successColor: #b5dc68;
+$dangerColor: #f38484;
+$contrastColor: #8d5a97;
 
+$black: #4f4f4f;
 $white: #ebf2fa;
-$black: #2e282a;
-$lightBlack: rgba(0, 0, 0, 0.1);
 
 @mixin flexCenter($justifyContent) {
   display: flex;
@@ -27,7 +31,7 @@ html {
 }
 body {
   flex-direction: column;
-  background-color: $white;
+  background-color: $secondaryColor;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -53,7 +57,7 @@ body {
 h2 {
   margin-top: 3.2rem;
   margin-bottom: 0.8rem;
-  color: $blue;
+  color: $primaryColor;
   font-weight: 400;
 }
 
@@ -72,8 +76,8 @@ a {
 }
 
 .button.new {
-  color: $white;
-  background-color: $blue;
+  color: #fff;
+  background-color: $primaryColor;
   padding: 0.75rem;
   border-radius: 0.25rem;
   display: inline-block;
@@ -81,11 +85,10 @@ a {
   transition: all 0.2s ease;
 
   &:hover {
-    background-color: $white;
-    color: $blue;
-    box-shadow: 0 5px 10px $lightBlack;
-    border: 0.5px solid $blue;
-    transform: translateY(-0.25rem) scale(1.1);
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    border: 0.5px solid $primaryColor;
+    transform: scale(1.1);
 
     transition: all 0.3s ease;
   }
@@ -95,7 +98,7 @@ a {
   font-size: 1.2rem;
 }
 .button.cancel {
-  color: $red;
+  color: $dangerColor;
   background: none;
   padding: 0.5rem;
   font-size: 1rem;
@@ -108,16 +111,23 @@ a {
 // Header ==============================
 
 header {
-  background: $green;
+  background: $primaryColor;
   padding: 4rem 2rem 8rem;
   text-align: center;
 
   #logo {
-    color: $white;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
 
     span {
-      color: $blue;
+      color: $contrastColor;
+      letter-spacing: -0.1rem;
+
+      &:first-child {
+        font-size: 1.75rem;
+      }
     }
   }
 }
@@ -128,7 +138,6 @@ header {
   margin-top: -6rem;
 
   h2 {
-    color: $white;
     margin-top: 0;
   }
 }
@@ -140,7 +149,7 @@ header {
   padding: 1.5rem 2rem;
   border-radius: 0.25rem;
   margin-bottom: 1.2rem;
-  box-shadow: 0 5px 10px $lightBlack;
+  box-shadow: 0 5px 10px $transparentBlack;
 
   h3 {
     font-weight: normal;
@@ -162,10 +171,10 @@ header {
 }
 
 .card#total {
-  background: $blue;
+  background: $successColor;
   p,
   h3 {
-    color: $white;
+    color: #fff;
   }
 }
 
@@ -188,7 +197,7 @@ header {
   td {
     background: #fff;
     padding: 1rem 2rem;
-    border-bottom: 3px solid $blue;
+    border-bottom: 3px solid $contrastColor;
   }
 
   td.description {
@@ -197,15 +206,16 @@ header {
   }
 
   td.income {
-    color: $green;
+    opacity: 1;
+    color: $successColor;
   }
 
   td.expense {
-    color: $red;
+    color: $dangerColor;
   }
 
   th {
-    background: $blue;
+    background: $primaryColor;
     color: #fff;
 
     padding: 0.5rem 2rem;
@@ -256,7 +266,7 @@ table tbody tr td {
   z-index: 99;
 
   .modal {
-    background: $white;
+    background: #fff;
     padding: 2.4rem;
     width: 90%;
     max-width: 600px;
@@ -269,6 +279,7 @@ table tbody tr td {
 
     h2 {
       margin-top: 0;
+      color: $successColor;
     }
 
     .input-group {
@@ -280,6 +291,7 @@ table tbody tr td {
 
       input {
         border: none;
+        border-bottom: 1px solid $primaryColor;
         border-radius: 0.2rem;
         padding: 0.8rem;
         width: 100%;

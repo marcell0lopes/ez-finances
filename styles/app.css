@@ -14,7 +14,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #ebf2fa;
+  background-color: #fffdde;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -38,7 +38,7 @@ body {
 h2 {
   margin-top: 3.2rem;
   margin-bottom: 0.8rem;
-  color: #2a57b9;
+  color: #d9d7f1;
   font-weight: 400;
 }
 
@@ -55,8 +55,8 @@ a {
 }
 
 .button.new {
-  color: #ebf2fa;
-  background-color: #2a57b9;
+  color: #fff;
+  background-color: #d9d7f1;
   padding: 0.75rem;
   border-radius: 0.25rem;
   display: inline-block;
@@ -66,13 +66,11 @@ a {
 }
 
 .button.new:hover {
-  background-color: #ebf2fa;
-  color: #2a57b9;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  border: 0.5px solid #2a57b9;
-  -webkit-transform: translateY(-0.25rem) scale(1.1);
-          transform: translateY(-0.25rem) scale(1.1);
+  background-color: #fffdde;
+  color: #d9d7f1;
+  border: 0.5px solid #d9d7f1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -83,7 +81,7 @@ a {
 }
 
 .button.cancel {
-  color: #ef3e36;
+  color: #f38484;
   background: none;
   padding: 0.5rem;
   font-size: 1rem;
@@ -95,18 +93,25 @@ a {
 }
 
 header {
-  background: #82ba18;
+  background: #d9d7f1;
   padding: 4rem 2rem 8rem;
   text-align: center;
 }
 
 header #logo {
-  color: #ebf2fa;
+  color: rgba(255, 255, 255, 0.9);
   font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 2.5rem;
 }
 
 header #logo span {
-  color: #2a57b9;
+  color: #8d5a97;
+  letter-spacing: -0.1rem;
+}
+
+header #logo span:first-child {
+  font-size: 1.75rem;
 }
 
 #balance {
@@ -114,7 +119,6 @@ header #logo span {
 }
 
 #balance h2 {
-  color: #ebf2fa;
   margin-top: 0;
 }
 
@@ -130,7 +134,7 @@ header #logo span {
 .card h3 {
   font-weight: normal;
   font-size: 1rem;
-  color: #2e282a;
+  color: #4f4f4f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,16 +154,16 @@ header #logo span {
   font-size: 2rem;
   line-height: 3rem;
   margin-top: 1rem;
-  color: #2e282a;
+  color: #4f4f4f;
 }
 
 .card#total {
-  background: #2a57b9;
+  background: #b5dc68;
 }
 
 .card#total p,
 .card#total h3 {
-  color: #ebf2fa;
+  color: #fff;
 }
 
 #transaction {
@@ -181,24 +185,25 @@ header #logo span {
 #data-table td {
   background: #fff;
   padding: 1rem 2rem;
-  border-bottom: 3px solid #2a57b9;
+  border-bottom: 3px solid #8d5a97;
 }
 
 #data-table td.description {
   font-weight: bold;
-  color: #2e282a;
+  color: #4f4f4f;
 }
 
 #data-table td.income {
-  color: #82ba18;
+  opacity: 1;
+  color: #b5dc68;
 }
 
 #data-table td.expense {
-  color: #ef3e36;
+  color: #f38484;
 }
 
 #data-table th {
-  background: #2a57b9;
+  background: #d9d7f1;
   color: #fff;
   padding: 0.5rem 2rem;
   font-weight: normal;
@@ -259,7 +264,7 @@ table tbody tr td:last-child {
 }
 
 .modal-overlay .modal {
-  background: #ebf2fa;
+  background: #fff;
   padding: 2.4rem;
   width: 90%;
   max-width: 600px;
@@ -273,6 +278,7 @@ table tbody tr td:last-child {
 
 .modal-overlay #form h2 {
   margin-top: 0;
+  color: #b5dc68;
 }
 
 .modal-overlay #form .input-group {
@@ -285,6 +291,7 @@ table tbody tr td:last-child {
 
 .modal-overlay #form .input-group input {
   border: none;
+  border-bottom: 1px solid #d9d7f1;
   border-radius: 0.2rem;
   padding: 0.8rem;
   width: 100%;
@@ -309,7 +316,7 @@ table tbody tr td:last-child {
 
 footer {
   text-align: center;
-  color: #2e282a;
+  color: #4f4f4f;
   padding: 1rem;
 }
 
