@@ -6,6 +6,8 @@ _Project Preview:_
 
 ![Project Preview](./assets/preview.png)
 
+### :tada: Please, give it a try! [Just click on this link](https://marcell0lopes.github.io/ez-finances/) and you will be redirected to the ez.FINANCE$ testing page. :tada:
+
 ### Simple web app I made to exercise some basic front-end concepts and SCSS
 
 I've used Vanilla JS for all the functionality, like adding and removing transactions, displaying updated information on screen and using the browser's local storage to keep data.
