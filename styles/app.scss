@@ -181,6 +181,10 @@ header {
   width: 100%;
   border-spacing: 0 0.5rem;
 
+  img {
+    cursor: pointer;
+  }
+
   td {
     background: #fff;
     padding: 1rem 2rem;
