@@ -1,5 +1,4 @@
 const Modal = {
-  //Mudar o abre e fecha para Toggle ============
   open() {
     document.querySelector('.modal-overlay').classList.add('active');
   },
