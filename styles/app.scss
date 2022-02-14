@@ -1,10 +1,10 @@
 // New Palette
 $transparentBlack: rgba(0, 0, 0, 0.1);
-$primaryColor: #d9d7f1;
-$secondaryColor: #fffdde;
+$primaryColor: #79a9d1;
+$secondaryColor: #fffbfe;
 $successColor: #b5dc68;
 $dangerColor: #f38484;
-$contrastColor: #8d5a97;
+$contrastColor: #1446a0;
 
 $black: #4f4f4f;
 $white: #ebf2fa;
@@ -64,7 +64,7 @@ a {
 
 .button {
   color: $white;
-  background-color: $green;
+  background-color: $primaryColor;
   border-radius: 0.25rem;
   border: none;
   cursor: pointer;

@@ -14,7 +14,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #fffdde;
+  background-color: #fffbfe;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -38,7 +38,7 @@ body {
 h2 {
   margin-top: 3.2rem;
   margin-bottom: 0.8rem;
-  color: #d9d7f1;
+  color: #79a9d1;
   font-weight: 400;
 }
 
@@ -48,7 +48,7 @@ a {
 
 .button {
   color: #ebf2fa;
-  background-color: #82ba18;
+  background-color: #79a9d1;
   border-radius: 0.25rem;
   border: none;
   cursor: pointer;
@@ -56,7 +56,7 @@ a {
 
 .button.new {
   color: #fff;
-  background-color: #d9d7f1;
+  background-color: #79a9d1;
   padding: 0.75rem;
   border-radius: 0.25rem;
   display: inline-block;
@@ -66,9 +66,9 @@ a {
 }
 
 .button.new:hover {
-  background-color: #fffdde;
-  color: #d9d7f1;
-  border: 0.5px solid #d9d7f1;
+  background-color: #fffbfe;
+  color: #79a9d1;
+  border: 0.5px solid #79a9d1;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: all 0.3s ease;
@@ -93,7 +93,7 @@ a {
 }
 
 header {
-  background: #d9d7f1;
+  background: #79a9d1;
   padding: 4rem 2rem 8rem;
   text-align: center;
 }
@@ -106,7 +106,7 @@ header #logo {
 }
 
 header #logo span {
-  color: #8d5a97;
+  color: #1446a0;
   letter-spacing: -0.1rem;
 }
 
@@ -185,7 +185,7 @@ header #logo span:first-child {
 #data-table td {
   background: #fff;
   padding: 1rem 2rem;
-  border-bottom: 3px solid #8d5a97;
+  border-bottom: 3px solid #1446a0;
 }
 
 #data-table td.description {
@@ -203,7 +203,7 @@ header #logo span:first-child {
 }
 
 #data-table th {
-  background: #d9d7f1;
+  background: #79a9d1;
   color: #fff;
   padding: 0.5rem 2rem;
   font-weight: normal;
@@ -291,7 +291,7 @@ table tbody tr td:last-child {
 
 .modal-overlay #form .input-group input {
   border: none;
-  border-bottom: 1px solid #d9d7f1;
+  border-bottom: 1px solid #79a9d1;
   border-radius: 0.2rem;
   padding: 0.8rem;
   width: 100%;
